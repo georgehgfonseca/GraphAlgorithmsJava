@@ -13,7 +13,7 @@ class Main {
     g1.addEdgeUnoriented(6, 8, 1);
     System.out.println(g1.bfs(7));
     System.out.println(g1.connected());
-    Graph g2 = new Graph("grafo1.txt");
+    Graph g2 = new Graph("graph1.txt");
     System.out.println(g2);
     
     // Graph g1 = new Graph(4);
